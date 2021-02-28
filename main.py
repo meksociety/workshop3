@@ -112,7 +112,7 @@ def create_books(req_body: Books):
     name = req_body_dict["name"]
     page = req_body_dict["page"]
 
-    print("[ Log ] name", id)
+    print("[ Log ] id", id)
     print("[ Log ] name", name)
     print("[ Log ] page", page)
 
